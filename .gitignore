@@ -15,3 +15,29 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Compiled output
+target/
+*.class
+*.war
+*.jar
+*.log
+
+# Maven
+.mvn/timing.properties
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Local config and secrets (database password!)
+src/main/resources/db.properties
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
